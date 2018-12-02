@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Login Form Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="loginbox">
+  
+        <h1>Sign Up for Free</h1>
+        <form action="sign" method="post">
+            
+            <input type="text" name="first" placeholder="First Name*" required>
+            <input type="text" name="last" placeholder="Last Name*" required>
+            <input type="text" name="email" placeholder="Email*" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Eg.- sitanshu@gmail.com"> 
+            <input type="text" name="uni" placeholder="University Id*" required>
+            <input type="password" name="pass" placeholder="Enter Password*" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"   title="Password must contain 8 or more characters that
+are of at least one number, and one uppercase and lowercase letter.">
+            <input type="text" name="user" placeholder="User" required>
+            <input type="submit" name="submit" value="Get Started">
+            
+        </form>
+        
+    </div>
+
+</body>
+
+</html>
